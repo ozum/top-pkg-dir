@@ -15,7 +15,7 @@ async function topPkgDir(cwd: string = process.cwd()): Promise<string | undefine
   let parentPkgDir;
 
   do {
-    parentPkgDir = currentPkgDir ? await pkgDir(join(currentPkgDir, "..")) : undefined;
+    parentPkgDir = currentPkgDir ? await pkgDir(join(currentPkgDir, "..")) : undefined; // eslint-disable-line no-await-in-loop
     currentPkgDir = parentPkgDir || currentPkgDir;
   } while (parentPkgDir !== undefined);
 
