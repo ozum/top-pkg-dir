@@ -28,11 +28,11 @@ async function() {
 
 # API
 
-## pkgDir(cwd?)
+## topPkgDir(cwd?)
 
 Returns a `Promise` for either the top most project root path or `undefined` if it couldn't be found.
 
-## pkgDir.sync(cwd?)
+## topPkgDir.sync(cwd?)
 
 Returns the top most project root path or `undefined` if it couldn't be found.
 
