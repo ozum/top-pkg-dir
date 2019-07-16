@@ -1,6 +1,6 @@
 {
   "name": "top-pkg-dir",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Find top most root directory of a Node.js project or npm package.",
   "keywords": [
     "package",
